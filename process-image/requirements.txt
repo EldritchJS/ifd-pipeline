@@ -3,5 +3,6 @@ kafka-python
 numpy
 pillow
 requests
+opencv-python-headless
 pyifd
 
