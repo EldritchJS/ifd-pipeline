@@ -10,6 +10,22 @@ import requests
 from io import BytesIO
 from kafka import KafkaConsumer
 from kafka import KafkaProducer
+from pyIFD.ADQ1 import detectDQ
+from pyIFD.ADQ2 import getJmap
+from pyIFD.ADQ3 import BenfordDQ
+from pyIFD.BLK import GetBlockGrid
+from pyIFD.CAGI import CAGI
+from pyIFD.CFA1 import CFA1
+from pyIFD.CFA2 import CFA2
+from pyIFD.DCT import DCT
+from pyIFD.ELA import ELA
+from pyIFD.GHOST import GHOST
+from pyIFD.NADQ import NADQ
+from pyIFD.NOI1 import GetNoiseMap
+from pyIFD.NOI2 import GetNoiseMaps 
+from pyIFD.NOI4 import MedFiltForensics
+from pyIFD.NOI5 import PCANoise
+
 
 def main(args):
     batch_count = 0
