@@ -1,0 +1,7 @@
+setuptools>=41.0.0
+kafka
+numpy
+pillow
+requests
+pyifd
+
