@@ -27,7 +27,6 @@ from pyIFD.NOI4 import MedFiltForensics
 from pyIFD.NOI5 import PCANoise
 
 
-
 def main(args):
     batch_count = 0
 
