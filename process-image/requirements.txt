@@ -1,5 +1,5 @@
 setuptools>=41.0.0
-kafka
+kafka-python
 numpy
 pillow
 requests
